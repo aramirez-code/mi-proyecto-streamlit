@@ -1,0 +1,7 @@
+streamlit
+requests
+fpdf
+python-docx
+pillow
+PyPDF2
+easyocr
