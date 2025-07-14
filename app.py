@@ -42,7 +42,7 @@ if st.button("Enviar consulta"):
         try:
             files = {"archivo": archivo} if archivo else None
             data = {"pregunta": pregunta}
-            with requests.post("https://de467d4ab7c0.ngrok-free.app/consulta", data=data, files=files, stream=True, timeout=300) as response:
+            with requests.post("https:00097850f9e0.ngrok-free.app/consulta", data=data, files=files, stream=True, timeout=300) as response:
                 respuesta_parcial = ""
                 # Streaming: vamos sumando los trozos y refrescando en pantalla
                 for chunk in response.iter_content(chunk_size=256):
